@@ -1,0 +1,20 @@
+.Table{
+    width:70%;
+    margin:7px;
+    padding:7px;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+
+}
+
+
+.Table td, .Table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.Table tr:nth-child(even) {
+    background-color: #dddddd;
+}

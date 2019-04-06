@@ -1,0 +1,22 @@
+.IndexTransactions{
+    width:100%;
+    margin:7px;
+    padding:7px;
+    box-sizing: border-box;
+
+}
+.IndexTransactions table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.IndexTransactions td, .IndexTransactions th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.IndexTransactions tr:nth-child(even) {
+    background-color: #dddddd;
+}

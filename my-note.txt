@@ -1,0 +1,36 @@
+Note
+======
+1. npx create-react-app my-app
+2.at the package.json- we need to run "eject"
+3. Run =>  npm run eject
+4.go to Config->webpack.config.dev,
+	@test:/\.css$/,
+	----
+        ---
+        ---
+        ---
+       loader:require.resolve('')
+	---
+	importLoaders:1,
+	modules:true,
+	localIdentName:'[name]__[local]__[hash:base64:5]'
+	},
+5.go to Config->webpack.config.prod,()
+	@test:/\.css$/,
+	----
+        ---
+        ---
+        ---
+	----
+        ---
+        ---
+        ---
+	----
+        ---
+        ---
+        sourceMap:shouldSourceMap,
+	modules:true,
+	localIdentName:'[name]__[local]__[hash:base64:5]'
+	
+
+

@@ -1,0 +1,26 @@
+.Bank{
+    margin:7px;
+    display:flex;
+    flex-direction:column nowrap;
+    justify-content: space-around;
+    width:80%;
+    box-shadow: 3px 2px 5px 5px #ccc;
+    border:1px solid #eee;
+    padding:5px;
+    box-sizing:bordr-box;
+}
+
+
+.Bank .type{
+    display:flex;
+    flex-direction: row nowrap
+}
+.Bank h3 {
+    font: bold 19px/1.5em sans-serif;
+    background: #b3d9ff;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #0000ff;
+}

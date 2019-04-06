@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Noto+Serif+KR|Open+Sans|Roboto');
+*{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 13px;
+}
+
+h3 {
+    margin:5px auto;
+    font: bold 22px/1.5em sans-serif;
+    color: #e45016;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    border-radius: 8px;
+    border-bottom: 1px solid #000000;
+    width:250px;
+    padding:7px;
+    
+}
+
+section{
+    margin:50px auto auto;
+    width:90%;
+    text-align:center;
+    box-shadow: 3px 2px 5px 5px #ccc;
+    border:1px solid #eee;
+    padding:5px;
+    box-sizing:bordr-box;
+
+}
+box{
+    margin:50px auto auto;
+    width:90%;
+    text-align:center;
+    background: #F5F5F5;
+    border:1px solid #eee;
+    padding:5px;
+    box-sizing:bordr-box;
+
+}
+label{
+    display:block;
+    text-align:left;
+    font-weight: bold;
+    margin-left:8px;
+}
+
+
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr td, tr th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+button{
+    border:0;
+    border-radius: 3px;
+    padding:10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background:#4C90CF;
+    color:#ffffff;
+}
+button.primary{
+    background:rgb(55, 52, 189);
+    color:#ffffff
+}
+button.success{
+    background:green;
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: 'Droid Serif', serif;
+    font-size:14px;
+    
+    }
+    
+    .ui-autocomplete {
+        text-transform: capitalize;
+    }
+        
+    a{
+        text-decoration: none;
+        color:#505050;
+        transition: transform 0.2s;
+    }
+    a:hover {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.95);
+        }
+        
+    .blink_me {
+            animation: blinker 1s linear infinite;
+          }
+    
+    
+     select.form-control{
+              height:30px !important;
+          }
+          
+     @keyframes blinker {
+            50% {
+              opacity: 0;
+            }
+          }
+    .container{
+        margin:10px auto;
+        padding:0;
+    }
+    
+      .ui-autocomplete {
+                max-height: 200px;
+                overflow-y: auto;
+                overflow-x: hidden;
+              }
+    
+    #datesearch{
+        margin-top:10px;
+        display:none;
+    }
+              
+     .ui-autocomplete {
+                height: 100px;
+              }
+    .error ul{
+        list-style: none;
+    }
+              
+    .error ul li{
+        margin: 6px;
+    }
+    td a{
+        font-weight:bold;
+    }
+    
+    h1{
+        font:normal 15px/1.8em 'PT Serif', serif !important;
+        color:#000000 !important;
+        text-transform:uppercase;
+        text-shadow:1px 1px 1px grey;
+    }
+    
+    h6{
+        font:bold 19px/1.8em 'PT Serif', serif !important;
+        color:#000000 !important;
+        text-align:center;
+        text-transform:uppercase;
+        text-shadow:2px 2px 3px grey;
+        border-bottom:0px solid #007BFF;
+        padding:2px;
+        margin:3px auto;
+        border-bottom:1px solid rgb(68, 69, 70);
+        width:40%;
+        text-align:center;	
+    }
+    
+     h5{
+        font:bold 23px/1.8em 'PT Serif', serif !important;
+        color:#2F7CB5;
+        text-align:center;
+        text-transform:uppercase;
+        text-shadow:2px 2px 3px grey;
+        border-bottom:0px solid #007BFF;
+        padding:2px;
+        margin:3px auto;
+        border-bottom:1px solid rgb(68, 69, 70);
+        width:40%;
+        text-align:center;	
+    }
+    
+    h3{
+            font:bold 19px/1.5em sans-serif;
+            background:#b3d9ff;
+            color:#ffffff;
+            text-shadow: 2px 2px 4px #000000;
+            text-align:center;
+            border-radius:5px;
+            border:2px solid #0000ff;
+            padding:10px;
+        }
+    h4{
+            font:bold 19px/1.5em sans-serif;
+            text-transform:uppercase;
+            color:#007BFF;
+            text-shadow: 2px 2px 2px #000000;
+            text-align:center;
+            padding:10px;
+            border-bottom:1px solid #007BFF;
+            letter-spacing: 2px;
+        }
+    
+    
+    .navbar{
+        border-radius: 0;
+        color:#ffffff !important;
+    }
+    
+    nav li a{
+        color:#ffffff;
+    }
+    
+    nav li,nav li a{
+        font-size:14px;
+        background:transparent;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    
+    
+    #logo_head img{
+        float:left;	
+        margin-top:5px;
+    }
+    
+    .navbar .navbar-brand, .navbar li{
+            margin-left:0px ;
+            font:bold 20px/1.5em 'PT Serif', serif !important;
+            float:left;
+    }
+    
+    a.list-group-item{
+        padding:20px;
+    }
+    
+    /* Gives shadow border */
+    .panel-border{
+        border-radius:10px;
+        color:#000000;
+        box-shadow: 10px 10px 5px grey;
+    }
+    
+    .sidebar{
+        width: 100%;
+        height: 100%;
+        background:#404E67;
+        color:#F2F3F5;
+        padding:10px 0;
+        position: relative;
+          top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        overflow: hidden;
+          
+        
+    }
+    
+    /*  how it work*/
+    #howitwork{
+        
+        box-shadow:10px 10px 5px grey;
+    }
+    #howitwork h2{
+        font:bold 25px/1.8em 'PT Serif', serif !important;
+        text-align:center;
+        text-transform:uppercase;
+        text-shadow:8px 8px 5px grey;
+    }
+    
+     #howitwork .diagram{
+        margin: 8px 16px;	
+    }
+    #howitwork .flow, #howitwork .diagram{
+        text-align:center;	
+    }
+    #howitwork .flow span a,#howitwork .flow span{
+        font:bold 16px/1.8em 'Droid', serif !important;	
+        margin: 5px 15px;
+        text-transform:capitalize;
+        color:#660033;
+        background:#e6ccff;
+        border-radius:8px;
+        padding:10px;
+        text-decoration:none;
+    }
+    #howitwork .flow span a:hover,#howitwork .flow span:hover{
+        color:#333300;
+    }
+    
+    .breadcrumb{
+        color: #800080 !important;
+        font-weight:bold;
+    }
+    .breadcrumb .active{
+        color:#800080 !important;
+        font-weight:bold;
+        text-transform:uppercase;
+        font:bold 19px/1.5 'Montserrat', sans-serif;
+        box-shadow:10px 10px grey;
+        padding:8px;
+        display:inline-block;
+    }
+    
+    
+    body#login {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #1f87c2;
+      color:#fff;
+    }
+    
+    body#login h2{
+        color:#fff;
+    }
+    
+    .form-signin {
+      max-width: 330px;
+      padding: 15px;
+      margin: 0 auto;
+    }
+    .form-signin .form-signin-heading,
+    .form-signin .checkbox {
+      margin-bottom: 10px;
+    }
+    .form-signin .checkbox {
+      font-weight: normal;
+    }
+    .form-signin .form-control {
+      position: relative;
+      height: auto;
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 10px;
+      font-size: 16px;
+    }
+    .form-signin .form-control:focus {
+      z-index: 2;
+    }
+    .form-signin input[type="email"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .form-signin input[type="password"] {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    
+    footer{
+        margin-top:30px;
+        padding-top:20px;
+        height:60px;
+        text-align: center;
+        background-color: #1f87c2;
+        color:#fff;
+    }
+    
+    .actions{
+        float:right;
+        margin-top:20px;
+    }
+    
+    .tablesorter th{
+        cursor:pointer;
+    }
+    
+    section#notice{
+        min-height: 100px;
+        display:inline;
+    
+    }
+    
+    section#notice .col{
+        width:600px;
+    }
+    
+    section#notice .cola{
+        width:300px;
+        float:left;
+        color:red;
+        
+    }	
+    
+    section#notice .colb{
+    width:300px;
+    float:right;	
+        
+    }
+    section#notice p{
+        
+        font-size:13px;
+        
+    }
+    section#notice .pull-left, section#notice  .pull-right{
+        
+    color:red;
+        font:bold 13px/1.2em Georgia, "Times New Roman", Times, serif;
+        
+    }
+    section#user p{
+        padding:0 0 0 20px;	
+        color:blue;
+        font:bold 12px/1.2em Georgia, "Times New Roman", Times, serif;
+        border-bottom:1px solid #f2f2f2;
+        
+        
+    }
+    
+    section#quickinfo {
+    
+        color:red;
+        font:bold 12px/1.2em Georgia, "Times New Roman", Times, serif;
+    
+        
+        
+    }
+    section#search .jumbotron{
+        
+        margin-top:0px important!;
+    }
+    section#search label{
+        font-weight:bold;
+        color:#191970;
+        padding-left:40px;
+        line-height:200%;
+        
+        
+    }
+     
+    .row .title_header{	
+    margin-bottom:15px;
+    margin-top:15px;
+    height:20px;
+    text-align:center;
+    background:#EBF4FA;
+    font-weight:bold;
+    color:#6D7B8D;
+    width:750px;
+    box-shadow: 0 0 5px #f5f5f5;
+    -webkit-box-shadow: 0 0 5px  #f5f5f5;
+    border-radius:5px 5px;
+    
+    }
+    .essential{
+        color:red;
+        font-weight:bold;
+            }
+    h4{
+    font-weight:bold;
+    }
+    
+    .panel-resize{
+        padding-left:50px;
+    }
+    
+    /*Transaction Confirmation Page */
+    #confirmation.confirmation h4{
+        font:bold 18px/1.7em sans-serif,Times New Roman,Georgia;
+        text-align:center;
+        color:red;
+        text-transform:uppercase;
+        
+    }
+    
+    #confirmation.confirmation .panel-body{
+        
+        
+        color:#000033;
+        
+    }
+    #confirmation.confirmation .panel-body .body-item{
+        
+        
+        
+        padding:15px 20px;
+        
+    }
+    #confirmation.confirmation strong{
+        font:bold 14px/1.7em sans-serif,Times New Roman,Georgia;
+        text-align:center;
+        color:#000033;
+        text-transform:uppercase;
+        
+        
+    }
+    #confirmation.confirmation span.info{
+        font:normal 13px/1.7em sans-serif,Times New Roman,Georgia;
+        text-align:center;
+        color:#000033;
+        text-transform:uppercase;
+        
+    }
+        
+        
+    /*Table formatting */
+    table tr strong{
+        font:bold 12px/1.8 'Montserrat', sans-serif;	
+    }
+    footer{
+        margin:0 !important;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        text-align: center;
+        }
+    footer a{
+        color:#ff0000;
+        font:bold 13px/1.5 'Montserrat', sans-serif;
+        text-decoration:none;
+    }
+    footer a:hover{
+        color:#ffffff;
+        font:bold 13px/1.5 'Montserrat', sans-serif;
+        text-decoration:none;
+    }
+    
+    
+    
+    
+    
+    

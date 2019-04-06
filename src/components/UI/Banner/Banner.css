@@ -1,0 +1,27 @@
+.Banner{
+    display:flex;
+    flex-flow:column;
+    margin:8px;
+    padding:10px;
+    background:#F5F5F5;
+    box-sizing: border-box;
+    width:600px; 
+    align-items:center;
+}
+.flow{
+    flex:display;
+    flex-flow:row;
+    width:100%;
+    justify-content: center;
+}
+.flowItem a{
+    display:inline-block;
+    margin:8px;
+    padding:10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    background:rgb(121, 122, 201);
+    color:#ffffff;
+    border-radius: 5px;
+}

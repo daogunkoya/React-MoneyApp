@@ -1,0 +1,15 @@
+
+
+@media(min-width:600px){
+    .CreateTransaction{
+        display: flex;
+        flex-flow: row nowrap;
+        width:900px;
+    }
+    .CreateTransaction .col6{
+        display: flex;
+        flex-flow: column nowrap;
+        width:400px;
+        margin:15px auto;
+    }
+}

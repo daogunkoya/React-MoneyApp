@@ -1,0 +1,21 @@
+.Layout{
+    width:100%;
+    display:flex;
+    flex-flow:row nowrap;
+}
+
+
+.Layout .sidebar{
+    width:25%;
+}
+
+.Layout .content{
+    width:75%
+}
+
+.Layout .sidebar, .Layout .content{
+    display:flex;
+    flex-flow:column wrap;
+    margin:20px 10px;
+    justify-content: flex-start;
+}

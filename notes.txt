@@ -1,0 +1,14 @@
+important code on route
+===============================
+import {Switch,Route} from 'react-router-dom'
+{/*
+            <Switch>
+                
+                <Route path= '/receivers/create' exact 
+                        render={()=>(<Receiver  title = {'Customers Create'}/>)}/>
+                <Route path= '/receiver/:id/edit' exact 
+                        render={()=>(<EditReceiver receivers = {this.props.receivers} title = {'Receivers List'}/>)}/>
+                 <Route path= '/receivers' exact 
+                        render={()=>(<IndexReceivers receivers = {this.props.receivers} title = {'Receivers List'}/>)}/> 
+            </Switch>
+            */}
